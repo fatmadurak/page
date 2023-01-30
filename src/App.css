@@ -85,3 +85,9 @@ line-height: 27px;
   border-radius: 24px;
   color: #FFFFFF;
 }
+
+.hero-section{
+
+  display: flex;
+  gap:50px;
+}
