@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import resim from "./images/img.svg"
+
 
 function App() {
   return (
@@ -25,12 +27,13 @@ function App() {
 
         <h1> Learn the art of Game Dev</h1>
         <p> This is a comprehensive course on Game Development. You will learn everything from generating an idea to publishing your games to different platforms.</p>
-        <button className="button btn" > <i class='fas fa-edit'/>Enrol Now</button>
+        <button className="button btn" > <i className='fas fa-edit'/>Enrol Now</button>
       </div>
 
       <div className="right">
         
-      <img  className="image" src="src/images/img1.svg" alt="resim"/>
+        <img src={resim} alt="resim"/>
+      
 
       </div>
 
